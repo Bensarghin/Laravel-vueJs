@@ -14,8 +14,8 @@ use App\Http\Controllers\CommentController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/admin/index', function () {
-    return view('/welcome');
+Route::get('/admin', function () {
+    return view('/dashboard');
 });
 Route::get('/admin/comments', [CommentController::class, 'Index']);
 Route::get('/admin/comments/insert', [CommentController::class, 'Insert']);
