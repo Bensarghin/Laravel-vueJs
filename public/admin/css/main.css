@@ -1,0 +1,40 @@
+/* header stylle */
+
+.header .home-header,
+.header .header-links ,
+.header .header-right, 
+.header .header-right{
+    display: inline-flex;
+    flex-direction: row !important;
+    margin: 10px 5px;
+    padding: 5px 5px;
+}
+
+.header a{
+   text-decoration-line: none;
+   font-weight: bold;
+   color: #717070;
+}
+
+.header .header-links{
+    margin-left: 150px;
+}
+
+.header .header-links a{
+    text-transform: uppercase;
+}
+
+.header .header-links > li,
+.header .header-right > li{
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+.header .header-right{
+    float: right;
+}
+
+/* content style */
+.content{
+    margin-top: 60px;
+}
